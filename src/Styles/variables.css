@@ -1,0 +1,56 @@
+:root{
+    --haldi: #F6C453;        /* main CTA buttons */
+    --gulabi: #F4A6B8;       /* cards, tags, banners */
+    --pudina: #A8DCC3;       /* cards, banners */
+    --lilac: #D9D2F2;        /* extra card background */
+    --cream: #ffead3;       /* page background */
+    --indigo: #231F3B;      /* text, footer */
+    --text-muted: #4A4560;  /* secondary text */
+
+    /* Soft pastel tints (backgrounds for sections and cards) */
+    --haldi-soft: #FDEBB8;
+    --gulabi-soft: #FBDCE3;
+    --pudina-soft: #D6F0E3;
+    --white: #FFFFFF;
+
+    /* Fonts */
+    --font-heading: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    /* Font sizes */
+    --fs-h1: 48px;
+    --fs-h2: 32px;
+    --fs-h3: 22px;
+    --fs-body: 16px;
+    --fs-small: 14px;
+
+    /* Spacing scale (multiples of 8) */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 16px;
+    --space-4: 24px;
+    --space-5: 32px;
+    --space-6: 48px;
+    --space-7: 64px;
+
+    /* Shape and shadow */
+    --radius-card: 16px;
+    --radius-big: 32px;
+    --radius-pill: 999px;
+    --shadow-soft: 0 8px 24px rgba(35, 31, 59, 0.08);
+}
+
+@media (max-width: 991px) {
+    :root { 
+        --fs-h1: 40px; 
+        --fs-h2: 28px; 
+    }
+}
+@media (max-width: 599px) {
+    :root { 
+        --fs-h1: 32px; 
+        --fs-h2: 24px; 
+        --fs-h3: 18px; 
+        --space-7: 40px; 
+    }
+}

@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--indigo);
+  background: var(--cream);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  line-height: 1.15;
+  margin: 0;
+}
+h1{
+    font-size: var(--fs-h1);
+}
+h2{
+    font-size: var(--fs-h2);
+}
+h3{
+    font-size: var(--fs-h3);
+}
+p{
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-7);
+}
+.section{
+    padding: var(--space-7) 0;
+}
+
+@media (max-width: 991px) {
+    .container{
+        padding: 0 var(--space-4)
+    }
+}
+@media (max-width: 599px) {
+    .container{
+        padding: 0 var(--space-3);
+    }
+}
+
+.btn {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  background: var(--haldi);
+  color: var(--indigo);
+  border: 2px solid var(--haldi);
+  border-radius: var(--radius-pill);
+  padding: var(--space-3) var(--space-5);
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border-color: var(--indigo);
+}
