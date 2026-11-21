@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import serum from '../assets/1.png'
-import cleanser from '../assets/2.png'
-import cream from '../assets/3.png'
+import serum from '../assets/serum1.png'
+import cleanser from '../assets/cleanser1.png'
+import cream from '../assets/Moisturizer1.png'
 import './Hero.css'
 
 export default function Hero() {
