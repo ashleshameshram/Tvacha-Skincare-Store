@@ -1,0 +1,59 @@
+.products-count{
+    color: var(--text-muted);
+    margin: var(--space-2) 0 var(--space-4);
+}
+.products-filters {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-5);
+}
+.chip{
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: var(--fs-small);
+    background: transparent;
+    color: var(--indigo);
+    border: 2px solid var(--indigo);
+    border-radius: var(--radius-pill);
+    padding: var(--space-2) var(--space-4);
+    min-height: 44px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.chip-hover{
+    background: var(--gulabi-soft);
+}
+.chip.is-active {
+    background: var(--indigo);
+    color: var(--cream);
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+}
+@media(max-width: 991px){
+    .products-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:599px) {
+    .products-grid{
+        gap: var(--space-3);
+    }
+    .products-filters{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: var(--space-2);
+    }
+    .chip{
+        white-space: nowrap;
+    }
+    .pcard-name{
+        font-size: 15px;
+    }
+    .pcard-btn{
+        padding: var(--space-2) var(--space-3);
+    }
+}

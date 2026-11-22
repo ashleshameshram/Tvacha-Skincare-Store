@@ -1,0 +1,79 @@
+.pcard {
+  background: var(--white);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.pcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(35, 31, 59, 0.14);
+}
+.pcard-link {
+    display: block;
+    flex: 1; 
+}
+.pcard-imgwrap {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--cream); 
+}
+.pcard-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+.pcard:hover .pcard-img {
+    transform: scale(1.04);
+}
+.pcard-badge {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);   /* was left */
+  z-index: 2;
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);  /* makes it a pill */
+  color: var(--indigo);
+  box-shadow: 0 7px 10px rgba(35, 31, 59, 0.15);
+}
+.pcard-badge-bestseller::before { content: "★ "; }
+.pcard-badge-bestseller {
+    background: var(--haldi);
+}
+.pcard-badge-new {
+    background: var(--pudina);
+}
+.pcard-info {
+    padding: var(--space-3) var(--space-3) 0;
+}
+.pcard-name {
+    font-size: 17px;
+    margin-bottom: var(--space-1);
+}
+.pcard-meta {
+    font-size: var(--fs-small);
+    color: var(--text-muted);
+}
+.pcard-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-3);
+}
+.pcard-price {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 18px;
+}
+.pcard-btn{
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--fs-small);
+}
