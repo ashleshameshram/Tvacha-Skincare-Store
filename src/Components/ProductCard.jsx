@@ -24,7 +24,7 @@ export default function ProductCard({ product }){
 
             <div className='pcard-footer'>
                 <span className='pcard-price'>₹{product.price}</span>
-                <button className='btn pcard__btn' onClick={handleAdd}>Add</button>
+                <button className='btn pcard__btn' onClick={handleAdd}>Add Cart</button>
             </div>
         </article>
     )

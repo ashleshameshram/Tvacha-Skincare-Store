@@ -64,7 +64,7 @@ img{
   color: var(--indigo);
   border: 2px solid var(--haldi);
   border-radius: var(--radius-pill);
-  padding: var(--space-3) var(--space-5);
+  padding: var(--space-2) var(--space-3);
   min-height: 44px;
   cursor: pointer;
 }
