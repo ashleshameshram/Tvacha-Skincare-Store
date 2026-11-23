@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
+import { useCart } from '../Context/CartContext.jsx'
 import './ProductCard.css'
 
 export default function ProductCard({ product }){
-    const handleAdd = () => {
-        console.log("Add to Cart:" , product.name);
-    }
+    const { addToCart } = useCart();
+    const handleAdd = () => addToCart(product);
     return(
         <article className='pcard'>
             <Link to={`/product/${product.id}`} className='pcard-link'>

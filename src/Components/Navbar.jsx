@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import {IoCartOutline,IoMenu,IoClose } from 'react-icons/io5'
+import { useCart } from '../Context/CartContext.jsx'
 import './Navbar.css'
 
 export default function Navbar() {
     const [open,setOpen] = useState(false);
-    const cartCount = 0;
+    const { totalItems: cartCount } = useCart();
 
     return(
         <header className="navbar">
