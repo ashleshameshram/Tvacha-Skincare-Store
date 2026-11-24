@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import {IoCartOutline,IoMenu,IoClose } from 'react-icons/io5'
+import {IoCartOutline,IoWaterOutline,IoMenu,IoClose } from 'react-icons/io5'
 import { useCart } from '../Context/CartContext.jsx'
 import './Navbar.css'
 
@@ -12,7 +12,7 @@ export default function Navbar() {
         <header className="navbar">
             <div className="container navbar__inner">
                 <Link to="/" className="navbar__logo" onClick={() => setOpen(false)}>
-                tvacha
+                <IoWaterOutline />tvacha
                 </Link>
 
                 <div className="navbar__right">
