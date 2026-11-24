@@ -15,14 +15,14 @@ export default function ProductDetails() {
   useEffect(() => {
     setQty(1);
     window.scrollTo(0,0);
-  },[]);
+  },[id]);
 
   if(!product) {
     return(
       <section className='section'>
         <div className='container'>
           <h1>Product not found</h1>
-          <Link to="/products" className='btn pd-block'>Back to shop</Link>
+          <Link to="/products" className='btn pd-back'>Back to shop</Link>
         </div>
       </section>
     );
@@ -59,7 +59,7 @@ export default function ProductDetails() {
             {product.badge && <span className='pd-badge'>{product.badge}</span>}
             <h1 className="pd-title">{product.name}</h1>
             <p className='pd-category'>{product.category}</p>
-            <p className='pd-price'>Rs.{product.price}</p>
+            <p className='pd-price'>₹{product.price}</p>
             <p className='pd-desc'>{product.description}</p>
 
             <div className='pd-buy'>
