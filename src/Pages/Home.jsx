@@ -1,6 +1,7 @@
 import Bestsellers from "../Components/Bestsellers";
 import Categories from "../Components/Categories";
 import Hero from "../Components/Hero";
+import WhyTvacha from "../Components/WhyTvacha";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Categories />
       <Bestsellers />
+      <WhyTvacha />
     </>
   );
 }
