@@ -1,0 +1,21 @@
+.best-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-5);
+}
+.best-head .home-title { margin-bottom: 0; }
+.best-all { font-weight: 500; text-decoration: underline; }
+
+.best-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+}
+
+@media (max-width: 991px) {
+  .best-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 599px) {
+  .best-grid { gap: var(--space-3); }
+}
