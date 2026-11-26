@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import {IoCartOutline,IoWaterOutline,IoMenu,IoClose } from 'react-icons/io5'
-import { useCart } from '../Context/CartContext.jsx'
+import { useCart } from '../context/CartContext.jsx'
 import './Navbar.css'
 
 export default function Navbar() {

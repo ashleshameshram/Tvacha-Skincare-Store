@@ -1,8 +1,8 @@
-import Bestsellers from "../Components/Bestsellers";
-import Categories from "../Components/Categories";
-import Hero from "../Components/Hero";
-import WhyTvacha from "../Components/WhyTvacha";
-import RoutineBanner from "../Components/RoutineBanner";
+import Bestsellers from "../components/Bestsellers";
+import Categories from "../components/Categories";
+import Hero from "../components/Hero";
+import WhyTvacha from "../components/WhyTvacha";
+import RoutineBanner from "../components/RoutineBanner";
 
 export default function Home() {
   return (

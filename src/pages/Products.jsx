@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router-dom";
-import products,{ categories } from '../Data/products.js'
-import ProductCard from '../Components/ProductCard.jsx'
+import products,{ categories } from '../data/products.js'
+import ProductCard from '../components/ProductCard.jsx'
 import './Products.css';
 
 export default function Products() {

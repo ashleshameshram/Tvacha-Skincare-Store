@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import products from '../Data/products.js'
-import { useCart } from '../Context/CartContext.jsx'
-import ProductCard from '../Components/ProductCard.jsx'
+import products from '../data/products.js'
+import { useCart } from '../context/CartContext.jsx'
+import ProductCard from '../components/ProductCard.jsx'
 import './ProductDetails.css'
 
 export default function ProductDetails() {

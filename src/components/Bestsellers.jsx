@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import products from '../Data/products.js';
+import products from '../data/products.js';
 import ProductCard from './ProductCard.jsx';
 import { FaArrowRight } from "react-icons/fa";
 import './Bestsellers.css'

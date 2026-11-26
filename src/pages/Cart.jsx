@@ -1,7 +1,7 @@
 import { FaShoppingCart, FaArrowLeft  } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from 'react-router-dom'
-import { useCart } from "../Context/CartContext";
+import { useCart } from "../context/CartContext";
 import './Cart.css'
 
 const FREE_DELIVERY_ABOVE = 599;

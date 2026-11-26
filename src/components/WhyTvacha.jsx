@@ -1,4 +1,3 @@
-import { IoLeafOutline, IoWaterOutline, IoSunnyOutline } from "react-icons/io5";
 import FewIngredients from '../assets/FewIngredients.jpeg'
 import DesiRoots from '../assets/DesiRoots.jpeg'
 import MadeForEveryday from '../assets/MadeForEveryday.jpeg'
