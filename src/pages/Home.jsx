@@ -3,6 +3,7 @@ import Categories from "../components/Categories";
 import Hero from "../components/Hero";
 import WhyTvacha from "../components/WhyTvacha";
 import RoutineBanner from "../components/RoutineBanner";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Bestsellers />
       <WhyTvacha />
       <RoutineBanner />
+      <Testimonials />
     </>
   );
 }

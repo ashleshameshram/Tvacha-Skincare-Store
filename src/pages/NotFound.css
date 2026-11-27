@@ -1,0 +1,32 @@
+.nf {
+  text-align: center;
+  padding: var(--space-6) 0;
+}
+
+.nf-code {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  background: var(--gulabi);
+  border-radius: var(--radius-big);
+  padding: var(--space-3) var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+.nf p {
+  color: var(--text-muted);
+  margin: var(--space-3) 0 var(--space-5);
+}
+
+.nf-cta {
+  display: flex;
+  gap: var(--space-3);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 599px) {
+  .nf-code { font-size: 64px; padding: var(--space-2) var(--space-5); }
+}
