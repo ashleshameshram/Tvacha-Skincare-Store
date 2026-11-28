@@ -2,12 +2,12 @@
  
 Tvacha is a modern, Gen Z-friendly skincare e-commerce website with an Indian touch, built with React. This is the **intermediate-level project** of my **ShadowFox Virtual Frontend Development Internship**.
 
-🔗 **Live Demo:**https://tvacha-skincare-store-virid.vercel.app/
+🔗 *Live Demo:* https://tvacha-skincare-store-virid.vercel.app/
 ---
 
 ## 📸 Screenshots
 
-![Home Page](./Home.png)
+![Home Page](./public/Home.png)
  
 ## ✨ Features
  
