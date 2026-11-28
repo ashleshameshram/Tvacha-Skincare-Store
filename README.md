@@ -9,6 +9,8 @@ Tvacha is a modern, Gen Z-friendly skincare e-commerce website with an Indian to
 
 ![Home Page](./public/Home.png)
  
+---
+
 ## ✨ Features
  
 - Responsive homepage with hero banner and featured products
