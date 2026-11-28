@@ -36,7 +36,7 @@ Tvacha is a modern, Gen Z-friendly skincare e-commerce website with an Indian to
 ## 🎨 Design Decisions
  
 - **Brand vibe:** Fresh, young and Indian-inspired, aimed at the new generation of skincare buyers.
-- **Colors & fonts:** Planned in advance and used consistently across all pages. [ADD YOUR PALETTE / FONTS]
+- **Colors & fonts:** Planned in advance and used consistently across all pages.
 - **Responsiveness:** Layout adapts for desktop, tablet and mobile using media queries.
 - **Structure:** Reusable components keep the code clean and easy to maintain.
 ---
